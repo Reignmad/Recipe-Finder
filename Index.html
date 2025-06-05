@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="./images/fillup.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill Up Recipes-recipe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+        <div class="div-logo"><a href="./home.html"><img src="./images/fillup-removebg-preview.png" class="logo"  height="150px" width="150px" alt=""></a></div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">Recipes</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="search-section">
+            <input type="text" id="search-bar" placeholder="Search for a recipe...">
+            <button id="search-button">Search</button>
+        </section>
+        <h1>Popular recipes</h1>
+        <hr class="hr-line">
+        <section id="recipe-list">
+            <div class="recipe-item" data-title="Spaghetti Carbonara">
+                <img src="./images/pexels-polina-tankilevitch-4518844-removebg-preview.png" alt="Spaghetti Carbonara">
+                <h3>Spaghetti Carbonara</h3>
+                <p>A classic Italian pasta dish with creamy sauce.</p>
+            </div>
+            <div class="recipe-item" data-title="Chicken Curry">
+                <img src="./images/pexels-zi-s-food-natureart-76108785-8992836-removebg-preview.png" alt="Chicken Curry">
+                <h3>Chicken Curry</h3>
+                <p>A spicy and flavorful chicken curry.</p>
+            </div>
+            <div class="recipe-item" data-title="Beef Tacos">
+                <img src="./images/pexels-john-guccione-www-advergroup-com-1874301-7904958-removebg-preview.png" alt="Beef Tacos">
+                <h3>Beef Tacos</h3>
+                <p>Delicious beef tacos with fresh toppings.</p>
+            </div>
+            <div class="recipe-item" data-title="Vegetable Stir-fry">
+                <img src="./images/vegie-removebg-preview.png" alt="Vegetable Stir-fry">
+                <h3>Vegetable Stir-fry</h3>
+                <p>A quick and healthy vegetable stir-fry.</p>
+            </div>
+            <div class="recipe-item" data-title="Chocolate Cake">
+                <img src="./images/pexels-piotr-arnoldes-7862031-6025807-removebg-preview.png" alt="Chocolate Cake">
+                <h3>Chocolate Cake</h3>
+                <p>A rich and moist chocolate cake.</p>
+            </div>
+
+            <div class="recipe-item" data-title="Caesar Salad">
+                <img src="./images/omar-taha-P65bvHgcgyY-unsplash-removebg-preview.png" alt="Caesar Salad">
+                <h3>Caesar Salad</h3>
+                <p>A fresh salad with a creamy Caesar dressing.</p>
+            </div>
+            
+        </section>
+        <section id="recipe-details" class="hidden">
+            <h2 id="recipe-title"></h2>
+            <img id="recipe-image" src="" alt="Recipe Image">
+            <h3>Ingredients</h3>
+            <ul id="ingredients-list"></ul>
+            <h3>Steps</h3>
+            <ol id="steps-list"></ol>
+            <button id="print-button">Print Recipe</button>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-logo">
+                <img src="./images/fillup.png" alt="Logo" class="logo">
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Address: 123 Green Tree, Pretoria, Gauteng</p>
+                <p>Phone: (012) 456-7890</p>
+                <p>Email: info@filluprecipe.com</p>
+            </div>
+            <div class="footer-news">
+                <h3>Recent News</h3>
+                <a href="./about.html">About</a>
+                <a href="./Index.html">Recipes</a>
+                
+            </div>
+            <div class="footer-social">
+                <ul class="socials">
+                    <li><a href="www.facebook.com"><i class="fa fa-facebook"><img class="icon" src="./images/facebook.svg" alt=""></i></a></li>
+                    <li><a href="www.twitter.com"><i class="fa fa-twitter"><img class="icon" src="./images/twitter.svg" alt=""></i></a></li>
+                    <li><a href="www.instagram.com"><i class="fa fa-instagram"><img class="icon" src="./images/instagram.svg" alt=""></i></a></li>
+                    <li><a href="www.youtube.com"><i class="fa fa-youtube"><img class="icon" src="./images/youtube.svg" alt=""></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; Fill Up - 2024 </p>
+    </footer>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
+
